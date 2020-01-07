@@ -44,7 +44,7 @@ body{
   /*Regler för footern*/
   #mainfooter{
       background:black;
-      border-radius: 20px; 
+      border-radius: 10px; 
       color: white;
       text-align: center;
       height: 40px;
@@ -60,7 +60,7 @@ body{
   .topnav {
     overflow: hidden;
     background-color:black;
-    border-radius: 20px; 
+    border-radius: 10px; 
   
     
   }
@@ -92,10 +92,30 @@ body{
         padding-top: 10px;
         padding-bottom: 10px;
   }
+   #form{
+   
+   }
+
+   #firstName, #lastName, #message{
+     margin: 1em;
+     padding: 1em;
+     border-radius: 5px;
+   }
+
+   .button{
+      margin: 1em;
+      padding: 1em;
+      border-radius: 5px;
+      background-color: black;
+      color: white;
+   }
+
+  #pitch{
+    width: 50%;
+    border-radius: 25px;
+  }
   
-  
-  
-  /*regler för små enheter*/
+  /*Regler för små enheter*/
   @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
      #floatright {float:none;}
@@ -116,6 +136,10 @@ body{
      padding-right: 20px;
     }
   
+    /*Regler för stora enheter enheter*/
+  @media screen and (min-width: 600px){
+    
+  }
   
    
   }
