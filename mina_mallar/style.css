@@ -1,0 +1,118 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Grids i WRAPPER och hur jag vill att de ska placeras.*/
+
+/*#wrapper{
+    display: grid; /*Aktiverar grids*/
+    /*grid-template-areas: 
+    'Logga Föreningsnamn Huvudmeny' 
+    'Banner Banner Banner'
+    'Pitch Pitch Pitch'
+    'ArtikelBild ArtikelBild Artikeltext'
+    'Footer Footer Footer' 
+    'Litenbild1 Litenbild2 Litenbild3'
+    ;
+  }*/
+
+/*GRIDS - WRAPPER*/
+
+/*#logga{ grid-area: Logga; }
+#mainmenu{ grid-area: Huvudmeny; }
+#foreningsnamn{ grid-area: Föreningsnamn; }
+#mainfooter{ grid-area: Footer; }
+.pictureLarge { grid-area: Banner; }
+#pitch{ grid-area: Pitch; }
+#aticlepicture{ grid-area: ArtikelBild; }
+#articletext{ grid-area: Artikeltext; }
+.picture1 { grid-area: Litenbild1; }
+.picture2 { grid-area: Litenbild2; }
+.picture3 { grid-area: Litenbild3; }*/
+
+/*Regler för menyn*/
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+li {
+    display:inline-block; 
+}
+li a {
+    display:block;
+    min-width:80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color:  black;
+    text-decoration: none;
+}
+li:hover a {
+    background: orange;
+}
+li:hover ul a {
+    background: #f3f3f3;
+    color: #2f3036;
+    height: 40px;
+    line-height: 40px;
+}
+li:hover ul a:hover {
+    background:#333399;
+    color: #fff;
+}
+#mainmenu{
+    padding-bottom: 50px;
+    margin-bottom: 20px;     
+}
+.show-menu {
+    text-decoration: none;
+    color: #fff;
+    background: #333399;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+}
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox]:checked ~ #menu{
+    display: block;
+}
+
+/*Banner*/
+.storBild{
+    width: 800px;
+    height: 400px;
+  }
+
+.litenBild{
+    width: 400px;
+    height: 200px;
+  }
+
+/*Pitch*/
+#pitch{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Footer*/
+#mainfooter{
+    background: black; 
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Regler för textstycken*/
+#text{
+    width: 50%;
+    margin: auto;
+}
