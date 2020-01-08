@@ -1,8 +1,26 @@
 /*Regler för body*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    margin: 0;  
+  
   }
+
+  #form{
+    background-image: url("pictures/backgroundpicture2.jpg");
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #pitch{
+    background-color: #555555;
+    color: white;
+    border-radius: 10px;
+    font-family: Mansalva, cursive;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
   /*Regler för wrapper*/
   #wrapper{
       width: 80%;
@@ -17,10 +35,9 @@ body{
     color: black;
    background-color: white;
    margin: 80px 80px 80px 80px;  
-   padding: 20px 20px 20px 20px; 
-   
-   
+   padding: 20px 20px 20px 20px;  
   }
+
   #welcome h2{
     color: black;
   }
@@ -60,10 +77,9 @@ body{
   .topnav {
     overflow: hidden;
     background-color:black;
-    border-radius: 10px; 
-  
-    
+    border-radius: 10px;   
   }
+
   .topnav a {
     float: left;
     display: block;
@@ -73,47 +89,77 @@ body{
     text-decoration: none;
     font-size: 17px;
   }
+
   .topnav a:hover {
     background:#555555;
-  
   }
+
   #meny{
       display:none;
   }
+  
   #floatright{
       float: right;
   }
 
-  #banner{
+  #banner {
         width: 100%;
         object-fit: cover;
         max-height: 20em;
-        border-radius: 25px;
+        border-radius: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
   }
-   #form{
-   
-   }
 
-   #firstName, #lastName, #message{
+  #picture2{
+        width: 50%;
+        object-fit: cover;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+  }
+
+  #banner2 {
+    width: 100%;
+    object-fit: cover;
+    max-height: 20em;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+   #firstName{
      margin: 1em;
+     margin-left: 5em;
+     margin-top: 5em;
      padding: 1em;
      border-radius: 5px;
    }
 
+   #lastName{
+    margin: 1em;
+    margin-left: 5em;
+    padding: 1em;
+    border-radius: 5px;
+  }
+
+  #message{
+    margin: 1em;
+    margin-left: 5em;
+    padding: 1em;
+    border-radius: 5px;
+    margin-top: 5em;
+  }
+
    .button{
       margin: 1em;
+      margin-left: 5em;
       padding: 1em;
       border-radius: 5px;
       background-color: black;
       color: white;
    }
-
-  #pitch{
-    width: 50%;
-    border-radius: 25px;
-  }
   
   /*Regler för små enheter*/
   @media screen and (max-width: 600px) {
@@ -124,9 +170,8 @@ body{
       display: block;
       text-align: center;
     }
-    #wrapper, #mainfooter{
-      width: 100vw;
-    }
+  }
+    
   
     #welcome{
      margin-top: 10vh;
@@ -136,10 +181,40 @@ body{
      padding-right: 20px;
     }
   
-    /*Regler för stora enheter enheter*/
-  @media screen and (min-width: 600px){
-    
-  }
-  
-   
-  }
+    /*Titlar*/
+
+    h1{
+        font-size: 36px;
+        margin: 0px 0px 36px;
+        text-transform: uppercase;
+    }
+
+    h2{
+      font-size: 32px;
+      margin: 0px 0px 32px;
+    }
+
+    h3{
+      font-size: 28px;
+      margin: 0px 0px 28px;
+    }
+
+    h4{
+      font-size: 22px;
+      margin: 0px 0px 22px;
+    }
+
+    h5{
+      font-size: 18px;
+      margin: 0px 0px 18px;
+    }
+
+    h6{
+      font-size: 12px;
+      margin: 0px 0px 12px;
+    }
+
+    p{
+      font-size: 14px;
+      margin: 0px 0px 14px;
+    }
