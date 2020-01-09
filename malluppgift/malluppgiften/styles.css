@@ -1,15 +1,140 @@
-/*Regler för body*/
+/*.........................Alla sidor..........................*/
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;  
+    margin: 0;    
+  }
+
+/*Header*/
+
+/*Logga och företagsnamn*/
+  #compInfo{
+    width: 50%;
+    display: inline-block;
+}
+
+/*Logga-bilden*/
+#header_logga{
+    height: 160px;
+    background-color: white;
+    padding: 2em;
+    display: inline-block;
+}
+
+#bigpic{
+    max-height: 160px;
+    width: auto;
+      
+}
+
+#basketklubb{
+  position: absolute;
+  top: 0;
+  padding-top: 5vh;
+  width: 30%;
+  display: inline-block;
+}
+
+/*Menyn*/
   
-  }
+.topnav {
+  overflow: hidden;
+  display:inline-block;
+  width:48%;
+}
 
-  #form{
-    background-image: url("pictures/backgroundpicture2.jpg");
-    object-fit: cover;
-  }
+.topnav a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;  
+  font-size: 17px;
+}
 
+.topnav a:hover {
+  background:#555555;
+}
+
+#meny{
+  display:none;
+}
+
+
+/*Titlar*/
+
+h1{
+  font-size: 36px;
+  margin: 0px 0px 36px;
+  text-transform: uppercase;
+}
+
+h2{
+  font-size: 32px;
+  margin: 0px 0px 32px;
+}
+
+h3{
+  font-size: 22px;
+  margin: 0px 0px 22px;
+}
+
+h4{
+  font-size: 19px;
+  margin: 0px 0px 19px;
+}
+
+h5{
+  font-size: 16px;
+  margin: 0px 0px 16px;
+}
+
+h6{
+  font-size: 12px;
+  margin: 0px 0px 12px;
+}
+
+p{
+  font-size: 16px;
+  margin: 0px 0px 16px;
+}
+
+/*Länkar*/
+a{
+  color: rgb(239, 144, 21);
+}
+
+#mainfooter, #mainfooter2, #mainfooter3{
+  background:black;
+  border-radius: 10px; 
+  color: white;
+  text-align: center;
+  height: 40px;
+  padding-top: 20px;
+  margin-top: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+/*.........................Startsidan..........................*/
+
+/*Regler för wrapper på Startsidan*/
+#wrapper1{
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  min-height: 100vh;     
+}
+
+#banner {
+  width: 100%;
+  object-fit: cover;
+  max-height: 20em;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+  /*Citatet på Startsidan*/
   #pitch{
     background-color: rgb(233, 140, 34);
     border-radius: 10px;
@@ -23,294 +148,29 @@ body{
     text-align: center;
   }
 
-  #extra{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  }
-
-  #extraquote{
-    font-family: Mansalva, cursive;
-    font-size: 40px;
-    margin: 80px 80px 80px 80px;  
-    padding: 20px 20px 20px 20px;
-  }
-
-
-
-  /*Regler för exempelbilden*/
-  .pc1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-
-  .pc1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-  }
-
-  /*Regler för wrapper*/
-  #wrapper1{
-      width: 80%;
-      margin: auto;
-      flex-direction: column;
-      min-height: 100vh;     
-  }
-
-  #wrapper2{
-    width: 80%;
-    margin: auto;
-    flex-direction: column;
-    min-height: 100vh;     
-}
-
-#wrapper3{
-  width: 80%;
-  margin: auto;
-  flex-direction: column;
-  min-height: 100vh;     
-}
-  
-  /*regler för välkomstext*/
-  #welcome{
-   color: black;
-   background-color: white;
-   margin: 80px 80px 80px 80px;  
-   padding: 20px 20px 20px 20px;  
-  }
-
-  #welcome h2{
-    color: black;
-  }
-  
-#compInfo{
-      width: 50%;
-      display: inline-block;
-}
-
-  /*Regler för loggan*/
-  #header_logga{
-      height: 160px;
-      background-color: white;
-      padding: 2em;
-      display: inline-block;
-  }
-  
-  /*Regler för loggan*/
-  #bigpic{
-      max-height: 160px;
-      width: auto;
-        
-  }
-
-    #basketklubb{
-    position: absolute;
-    top: 0;
-    padding-top: 5vh;
-    width: 30%;
-    display: inline-block;
-  }
-  
-  /*Regler för footern*/
-  #mainfooter{
-      background:black;
-      border-radius: 10px; 
-      color: white;
-      text-align: center;
-      height: 40px;
-      padding-top: 20px;
-      margin-top: 20px;
-      bottom: 0;
-      width: 100%;
-  }
-
-  #mainfooter2{
-    background:black;
-    border-radius: 10px; 
-    color: white;
-    text-align: center;
-    height: 40px;
-    padding-top: 20px;
-    margin-top: 20px;
-    bottom: 0;
-    width: 100%;
-}
-  
-  
-  /*Regler för menyn*/
-  
-  .topnav {
-    overflow: hidden;
-    display:inline-block;
-    width:48%;
-  }
-
-  .topnav a {
-    float: right;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    
-    font-size: 17px;
-  }
-
-  .topnav a:hover {
-    background:#555555;
-  }
-
-  #meny{
-      display:none;
-  }
-  
-  #floatright{
-      float: right;
-  }
-
-  #banner {
-        width: 100%;
-        object-fit: cover;
-        max-height: 20em;
-        border-radius: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-  }
-
-  #expc1{
-    width: 100%;
-    object-fit: cover;
-    max-height: 20em;
-    border-radius: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-  #picture2{
-        width: 50%;
-        object-fit: cover;
-        border-radius: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-  }
-
-  #banner2 {
-    width: 100%;
-    object-fit: cover;
-    max-height: 20em;
+  /*Bilden till välkomsttexten*/
+  #pixWelcome{
     border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-   #firstName{
-     margin: 1em;
-     margin-left: 5em;
-     margin-top: 5em;
-     padding: 1em;
-     border-radius: 5px;
-   }
-
-   #lastName{
-    margin: 1em;
-    margin-left: 5em;
-    padding: 1em;
-    border-radius: 5px;
   }
 
-  #message{
-    margin: 1em;
-    margin-left: 5em;
-    padding: 1em;
-    border-radius: 5px;
-    margin-top: 5em;
-  }
-
-   .button{
-      margin: 1em;
-      margin-left: 5em;
-      padding: 1em;
-      border-radius: 5px;
-      background-color: black;
-      color: white;
-   }
-
-   #name{
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     font-size: 12px;
-   }
-
-   #aquote{
-    font-size: 19px;
-    margin: 0px 0px 19px;
-    font-style: italic;
-   }
-  
-  /*Regler för små enheter*/
-  @media screen and (max-width: 600px) {
-      .topnav a:not(:first-child) {display: none;}
-     #floatright {float:none;}
-    .topnav.responsive a, #meny {
-      float: none;
-      display: block;
-      text-align: center;
-    }
-  }
-    
-  
+    /*Välkomsttexten*/
     #welcome{
-     margin-top: 10vh;
-     margin-left: 20px;
-     margin-right: 20px;
-     padding-left: 20px;
-     padding-right: 20px;
-    }
-  
-    /*Titlar*/
-
-    h1{
-        font-size: 36px;
-        margin: 0px 0px 36px;
-        text-transform: uppercase;
+      margin-top: 10vh;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+     }
+   
+    #welcome h2{
+      color: black;
     }
 
-    h2{
-      font-size: 32px;
-      margin: 0px 0px 32px;
-    }
-
-    h3{
-      font-size: 22px;
-      margin: 0px 0px 22px;
-    }
-
-    h4{
-      font-size: 19px;
-      margin: 0px 0px 19px;
-    }
-
-    h5{
-      font-size: 16px;
-      margin: 0px 0px 16px;
-    }
-
-    h6{
-      font-size: 12px;
-      margin: 0px 0px 12px;
-    }
-
-    p{
-      font-size: 14px;
-      margin: 0px 0px 14px;
-    }
+    /*Widgets*/
 
     #widget1{
-        background-color: rgb(241, 209, 161);
-        border-radius: 10px;
+      background-color: rgb(241, 209, 161);
+      border-radius: 10px;
     }
 
     #widget2{
@@ -321,61 +181,357 @@ body{
     #widget3{
       background-color: orange;
       border-radius: 10px;
-    }
-
-    a{
-      color: rgb(239, 144, 21);
-    }
-
-    #article21{
-      background-color: rgb(241, 209, 161);
-      padding: 2em;
-    }
-
-    #article22{
-      background-color: rgb(241, 209, 161);
-      padding: 2em;
-    }
-
-    #article31{
-      padding: 2em;
-      background-color: rgb(241, 209, 161);
-    }
-
-    #article32{
-      padding: 2em;
-      background-color: rgb(241, 209, 161);
-    }
-
-
-    #article4{
-
-      padding: 2em;
     } 
 
-    #article5{
-      padding: 2em;
-    }
 
-    #article6{
+/*.........................Bloggsidan..........................*/
 
-      padding: 2em;
-    }
+/*Wrappern för Bloggsidan*/
+#wrapper2{
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  min-height: 100vh; 
+}
 
-    #pc4{
-      background-color: rgb(241, 209, 161);
-    }
+/*Bannerbilden längst upp på sidan*/
+.pc1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 
-    #extradivpic{
-      border-radius: 50%;
-    }
+/*Bannerbild och bild till artikel nr 3*/
+#expc1{
+  width: 100%;
+  object-fit: cover;
+  max-height: 20em;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    #extradiv{
-      padding: 2em;
-    }
+/*Bild till artikel 1*/
+#extra{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
 
+/*Det långa citatet i början av sidan*/
+#aquote{
+  font-size: 19px;
+  margin: 0px 0px 19px;
+  font-style: italic;
+   }
 
-/*WRAPPER 1*/
+/*Det korta citatet*/
+#extraquote{
+  font-family: Mansalva, cursive;
+  font-size: 40px;
+  margin: 80px 80px 80px 80px;  
+  padding: 20px 20px 20px 20px;
+}  
+
+/*Bild till det korta citatet*/
+#extradivpic{
+  border-radius: 50%;
+}
+
+#extradiv{
+  padding: 2em;
+}
+
+/*Artiklarna*/
+#article21, #article22, #article31, #article32{
+  background-color: rgb(241, 209, 161);
+  padding: 2em;
+}
+
+/*Artiklarna*/
+#article4, #article5, #article6{
+  padding: 2em;
+} 
+
+/*Bannerbild och bild till artikel nr 3*/
+#expc1{
+  width: 100%;
+  object-fit: cover;
+  max-height: 20em;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ /*Bild till artikel 3*/
+ #pc4{
+  background-color: rgb(241, 209, 161);
+}
+
+/*........................Kontaktsidan.........................*/
+
+/*Wrappern för Kontaktsidan*/
+#wrapper3{
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  min-height: 100vh;     
+}
+
+/*Formuläret*/
+
+/*Fält 1*/
+#firstName{
+  margin: 1em;
+  margin-left: 5em;
+  margin-top: 5em;
+  padding: 1em;
+  border-radius: 5px;
+  width: 70%;
+}
+
+/*Fält 2*/
+#lastName{
+ margin: 1em;
+ margin-left: 5em;
+ padding: 1em;
+ border-radius: 5px;
+ width: 70%;
+}
+
+/*Fält 3*/
+#message{
+ margin: 1em;
+ margin-left: 5em;
+ padding: 1em;
+ border-radius: 5px;
+ margin-top: 5em;
+ width: 70%;
+}
+
+/*Knapp*/
+.button{
+  margin: 1em;
+  margin-left: 5em;
+  padding: 1em;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+/*Kontakttext*/
+#exText{
+  margin: 1em;
+  margin-top: 5em;
+  margin-left: 5em;
+  padding: 1em;
+  width: 60%;
+}
+
+/*.......................Media Queries.........................*/
+  
+  /*Regler för små enheter*/
+
+  @media screen and (max-width: 600px) {
+
+#wrapper1, #wrapper2, #wrapper3{   
+    grid-gap: 0px;
+}   
+
+/*Välkomsttexten på Startsidan*/
+#welcome{
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/*Bilden till välkomsttexten på Startsidan*/
+#center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+/*Artikel 2 på Artikelsidan*/
+#article21{
+  padding-bottom: 0px;
+  margin-bottom: 0px; 
+}
+
+#article22{
+  padding-top: 0px;
+  margin-top: 0px; 
+}
+
+/*Citatet på Artikelsidan*/
+#extraquote{
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/*Artikel 3 på Artikelsidan*/
+#article31{
+  padding-bottom: 0px;
+  margin-bottom: 0px; 
+}
+
+#article32{
+  padding-top: 0px;
+  margin-top: 0px; 
+}
+
+/*Artikel 4 på Artikelsidan*/
+#article4{
+  padding-bottom: 0px;
+  margin-bottom: 0px; 
+}
+
+#article5{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px; 
+}
+
+#article6{
+  padding-top: 0px;
+  margin-top: 0px; 
+}
+
+/*Formuläret på Kontaktsidan*/
+#form{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/*Texten på kontaktsidan*/
+#exText{
+  padding-top: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+  
+/*Header*/
+#compInfo{
+  width: 50%;
+  display: inline-block;
+}
+
+.topnav a{
+  float: none;
+  width: 30%;
+}
+
+#basketklubb{
+  display: none;
+}
+
+  /*WRAPPER 1*/
+
+  #header { grid-area: header; }
+  #bannerPicture { grid-area: bannerPicture; }
+  #pitch { grid-area: pitch; }
+  #pcWelcome { grid-area: pcWelcome; }
+  #welcome { grid-area: welcome; }
+  #widget1 { grid-area: widget1; }
+  #widget2 { grid-area: widget2; }
+  #widget3 { grid-area: widget3; }
+  #mainfooter { grid-area: mainfooter; }
+
+  #wrapper1 {
+    display: grid;
+    grid-template-areas:
+    'header'
+    'bannerPicture'
+    'pitch'
+    'pcWelcome'
+    'welcome'
+    'widget1'
+    'widget2'
+    'widget3'
+    'mainfooter';
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  /*WRAPPER 2*/
+
+#header2 { grid-area: header2; }
+#pc1 { grid-area: pc1; }
+#article1 { grid-area: article1; }
+#extra { grid-area: extra; }
+#extradiv { grid-area: extradiv; }
+#pc2 { grid-area: pc2; }
+#article21 { grid-area: article21; }
+#article22 { grid-area: article22; }
+#extraquote { grid-area: extraquote; }
+#pc31 { grid-area: pc31; }
+#article31 { grid-area: article31; }
+#pc32 { grid-area: pc32; }
+#article32 { grid-area: article32; }
+#pc4 { grid-area: pc4; }
+#article4 { grid-area: article4; }
+#article5 { grid-area: article5; }
+#article6 { grid-area: article6; }
+#mainfooter2 { grid-area: mainfooter2; }
+
+#wrapper2 {
+  display: grid;
+  grid-template-areas:
+  'header2'
+  'pc1'
+  'article1'
+  'extra'
+  'article21 '
+  'article22'
+  'extraquote'
+  'extradiv'
+  'pc31'
+  'pc32'
+  'pc2'
+  'article31'
+  'article32'
+  'pc4'
+  'article4'
+  'article5'
+  'article6'
+  'mainfooter2';
+  padding: 10px;
+}
+
+  /*WRAPPER 3*/
+
+#header3 { grid-area: header3; }
+#bannerPicture { grid-area: bannerPicture; }
+#exText { grid-area: exText; }
+#form { grid-area: form; }
+#mainfooter3 { grid-area: mainfooter3; }
+
+#wrapper3 {
+  display: grid;
+  grid-template-areas:
+  'header3 header3'
+  'bannerPicture bannerPicture'
+  'exText exText'
+  'form form'
+  'mainfooter3 mainfooter3';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+}
+    
+  /*Regler för stora enheter*/
+
+  @media screen and (min-width: 600px) {
+  
+  /*WRAPPER 1*/
 
     #header { grid-area: header; }
     #bannerPicture { grid-area: bannerPicture; }
@@ -439,5 +595,25 @@ body{
 }
 
 /*WRAPPER 3*/
+
+#header3 { grid-area: header3; }
+#bannerPicture { grid-area: bannerPicture; }
+#exText { grid-area: exText; }
+#form { grid-area: form; }
+#mainfooter3 { grid-area: mainfooter3; }
+
+#wrapper3 {
+  display: grid;
+  grid-template-areas:
+  'header3 header3'
+  'bannerPicture bannerPicture'
+  'form exText'
+  'mainfooter3 mainfooter3';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+  }
+
 
     
