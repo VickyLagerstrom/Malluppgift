@@ -6,14 +6,12 @@ body{
 }
 
 /*Header*/
-
-#header{
-  position: fixed;
-  background-color: white;
-  top: 0;
-  left: 10%;
-  width: 80%;
-  
+#header, #header2, #header3{
+position: fixed;
+background-color: white;
+top: 0;
+left: 10%;
+width: 80%;
 }
 
 /*Logga och företagsnamn*/
@@ -24,14 +22,14 @@ body{
 
 /*Logga-bilden*/
 #header_logga{
-  height: 160px;
+  height: 100px;
   background-color: white;
   padding: 2em;
   display: inline-block;
 }
 
 #bigpic{
-  max-height: 160px;
+  max-height: 100px;
   width: auto;
     
 }
@@ -146,8 +144,8 @@ width: 100%;
 width: 80%;
 margin: auto;
 flex-direction: column;
-min-height: 100vh;    
-margin-top: 20vh; 
+min-height: 100vh; 
+margin-top: 20vh;     
 }
 
 /*Bannerbilden*/
@@ -209,16 +207,30 @@ font-size: 40px;
 
   /*Widgets*/
 
+  #widgets{
+    width: 100%;
+    display: inline-block;
+  }
+
   #widget1{
     border-radius: 10px;
+    background: green;
+    width: 33%;
+    display: inline-block;
   }
 
   #widget2{
     border-radius: 10px;
+    background: yellow;
+    width: 33%;
+    display: inline-block;
   }
 
   #widget3{
     border-radius: 10px;
+    background: red;
+    width: 33%;
+    display: inline-block;
   } 
 
 
@@ -230,6 +242,7 @@ width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh; 
+margin-top: 20vh; 
 }
 
 /*Bannerbilden längst upp på sidan*/
@@ -324,7 +337,8 @@ padding: 2em;
 width: 80%;
 margin: auto;
 flex-direction: column;
-min-height: 100vh;     
+min-height: 100vh;    
+margin-top: 20vh;  
 }
 
 /*Formuläret*/
@@ -507,6 +521,11 @@ float: none;
 
 }
 
+#widget1, #widget2, #widget3{
+  display:block;
+  width: 100%;
+}
+
 
 
 /*WRAPPER 1*/
@@ -519,6 +538,7 @@ float: none;
 #widget1 { grid-area: widget1; }
 #widget2 { grid-area: widget2; }
 #widget3 { grid-area: widget3; }
+#widgets { grid-area: widgets;}
 #mainfooter { grid-area: mainfooter; }
 
 #wrapper1 {
@@ -529,9 +549,7 @@ float: none;
   'pitch'
   'pcWelcome'
   'welcome'
-  'widget1'
-  'widget2'
-  'widget3'
+  'widgets'
   'mainfooter';
   grid-gap: 10px;
   padding: 10px;
@@ -618,6 +636,7 @@ padding: 10px;
   #widget1 { grid-area: widget1; }
   #widget2 { grid-area: widget2; }
   #widget3 { grid-area: widget3; }
+  #widgets { grid-area: widgets;}
   #mainfooter { grid-area: mainfooter; }
 
   #wrapper1 {
@@ -627,7 +646,7 @@ padding: 10px;
     'bannerPicture bannerPicture bannerPicture'
     'pitch pitch pitch'
     'pcWelcome pcWelcome welcome'
-    'widget1 widget2 widget3'
+    'widgets widgets widgets'
     'mainfooter mainfooter mainfooter';
     grid-gap: 10px;
     padding: 10px;
