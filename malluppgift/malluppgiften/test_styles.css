@@ -450,8 +450,6 @@ width: 50%;
   
 /*Header*/
 
-
-
 .topnav{
   position: fixed;
   top: 0;
@@ -461,21 +459,18 @@ left: 0;
   background: grey;
   height: 40px;
   font-size: 32px;
- 
-
-
 }
-
+.topnav a{
+  float: left;
+ 
+ }  
 .test{
   width: 50%;
   margin: auto;
   float: none;
 }
 
-.topnav a{
- float: left;
 
-}  
 
 
 
