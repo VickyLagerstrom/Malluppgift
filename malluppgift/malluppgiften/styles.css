@@ -207,17 +207,30 @@ a{
 
     /*Widgets*/
 
+    #widgets{
+      width: 100%;
+      display: inline-block;
+    }
+  
     #widget1{
       border-radius: 10px;
+      background: green;
+      width: 33%;
+      display: inline-block;
     }
-
     #widget2{
       border-radius: 10px;
+      background: yellow;
+      width: 33%;
+      display: inline-block;
     }
-
     #widget3{
       border-radius: 10px;
-    } 
+      background: blue;
+      width: 33%;
+      display: inline-block;
+    }
+    
 
 
 /*.........................Bloggsidan..........................*/
@@ -506,6 +519,10 @@ left: 0;
   float: none;
   
 }
+#widget1, #widget2, #widget3{
+  display:block;
+  width: 100%;
+}
 
 
 
@@ -516,9 +533,7 @@ left: 0;
   #pitch { grid-area: pitch; }
   #pcWelcome { grid-area: pcWelcome; }
   #welcome { grid-area: welcome; }
-  #widget1 { grid-area: widget1; }
-  #widget2 { grid-area: widget2; }
-  #widget3 { grid-area: widget3; }
+  #widgets { grid-area: widgets; }
   #mainfooter { grid-area: mainfooter; }
 
   #wrapper1 {
@@ -529,9 +544,7 @@ left: 0;
     'pitch'
     'pcWelcome'
     'welcome'
-    'widget1'
-    'widget2'
-    'widget3'
+    'widgets'
     'mainfooter';
     grid-gap: 10px;
     padding: 10px;
@@ -615,9 +628,7 @@ left: 0;
     #pitch { grid-area: pitch; }
     #pcWelcome { grid-area: pcWelcome; }
     #welcome { grid-area: welcome; }
-    #widget1 { grid-area: widget1; }
-    #widget2 { grid-area: widget2; }
-    #widget3 { grid-area: widget3; }
+    #widgets { grid-area: widgets; }
     #mainfooter { grid-area: mainfooter; }
 
     #wrapper1 {
@@ -627,7 +638,7 @@ left: 0;
       'bannerPicture bannerPicture bannerPicture'
       'pitch pitch pitch'
       'pcWelcome pcWelcome welcome'
-      'widget1 widget2 widget3'
+      'widgets widgets widgets'
       'mainfooter mainfooter mainfooter';
       grid-gap: 10px;
       padding: 10px;
