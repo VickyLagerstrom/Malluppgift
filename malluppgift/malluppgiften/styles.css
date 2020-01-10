@@ -478,7 +478,7 @@ width: 50%;
 left: 0;
   overflow: hidden;
   width: 100vw;
-  background: grey;
+  background: black;
   height: 50px;
   font-size: 32px;
 }
@@ -486,6 +486,10 @@ left: 0;
   float: left;
  
  }  
+
+ .topnav a:hover {
+  color: white;
+}
 #links{
   width: 50%;
   margin: auto;
