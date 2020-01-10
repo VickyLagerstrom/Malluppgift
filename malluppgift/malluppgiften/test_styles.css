@@ -43,13 +43,19 @@ body{
   width:48%;
 }
 
-.topnav a {
+.test{
   float: right;
+
+}
+
+.topnav a {
+
   display: block;
   text-align: center;
   padding: 14px 16px;  
   font-size: 17px;
   font-weight: bolder;
+  display:inline-block;
 }
 
 .topnav a:hover {
@@ -443,19 +449,64 @@ width: 50%;
 
   
 /*Header*/
-#compInfo{
+
+
+
+.topnav{
+  position: fixed;
+  top: 0;
+left: 0;
+  overflow: hidden;
+  width: 100vw;
+  background: grey;
+  height: 40px;
+  font-size: 32px;
+ 
+
+
+}
+
+.test{
   width: 50%;
-  display: inline-block;
+  margin: auto;
+  float: none;
 }
 
 .topnav a{
-  float: none;
-  width: 30%;
+ float: left;
+
+}  
+
+
+
+#header_logga{
+  width: 50%;
+  margin-left: 50%;
+
+}
+
+#bigpic{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #basketklubb{
-  display: none;
+  width: 100%;
+ 
 }
+
+#klubbnamn{
+ 
+  margin-left: 30%;
+
+
+}
+#wrapper2{
+  margin-top: 5vh;
+
+}
+
 
   /*WRAPPER 1*/
 
