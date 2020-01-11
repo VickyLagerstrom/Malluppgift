@@ -8,11 +8,11 @@ body{
 /*Header*/
 #header, #header2, #header3{
 position: fixed;
-background-color: blue;
 top: 0;
 left: 10%;
 width: 80%;
 height: 100px;
+
 }
 
 #bannerPicture{
@@ -34,9 +34,14 @@ height: 100px;
 }
 
 #bigpic{
-  max-height: 100px;
+  max-height: 80px;
   width: auto;
-    
+  
+}
+
+/*Border radius*/
+.round_corners{
+  border-radius: 10px;
 }
 
 /*Företagsnamnet*/
@@ -129,18 +134,18 @@ text-align: center;
 height: 40px;
 bottom: 0;
 width: 100%;
+margin-top: 20px;
 }
 
 /*.........................Startsidan..........................*/
 
 /*Wrapper på Startsidan*/
 #wrapper1{
-padding-top:100px;
+padding-top:140px;
 width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh; 
-background: green;
 }
 
 /*Bannerbilden*/
@@ -159,10 +164,10 @@ font-size:30px;
 /*Citatet på Startsidan*/
 #pitch{
   background-color: rgb(233, 140, 34);
-
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 32px; 
+  margin: 60px 0 60px 0;
   
 }
 
@@ -357,7 +362,6 @@ position: static;
 /*Header*/
 #header, #header2, #header3{
   position: static;
-  background-color: blue;
   top: 0;
   left: 10%;
   width: 100%;
@@ -379,11 +383,12 @@ width: 100%;
 #pcWelcome{
   width: 100%;
   margin-left: 0;
+  
 }
 
 #pixWelcome{
   width: 100%;
-
+  padding-top: 20px;
 }
 
 
@@ -400,7 +405,7 @@ width: 100%;
 
 
 #wrapper1{
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 
