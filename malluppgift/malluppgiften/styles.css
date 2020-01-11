@@ -398,6 +398,7 @@ width: 50%;
 
 #wrapper1, #wrapper2, #wrapper3{   
     grid-gap: 0px;
+    width: 100%;
 }   
 
 /*Välkomsttexten på Startsidan*/
@@ -523,6 +524,10 @@ left: 0;
   display:block;
   width: 100%;
 }
+
+#mainfooter, #mainfooter2, #mainfooter3{
+  border-radius: 0;
+  }
 
 
 

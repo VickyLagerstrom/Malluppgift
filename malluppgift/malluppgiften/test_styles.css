@@ -528,6 +528,13 @@ float: none;
   width: 100%;
 }
 
+#wrapper1, #wrapper2, #wrapper3{
+  width: 100%;
+}
+
+#mainfooter, #mainfooter2, #mainfooter3{
+  border-radius: 0;
+  }
 
 
 /*WRAPPER 1*/
