@@ -24,7 +24,6 @@ width: 80%;
 #header_logga{
   height: 100px;
   background-color: white;
-  padding: 2em;
   display: inline-block;
 }
 
@@ -38,7 +37,6 @@ width: 80%;
 #basketklubb{
 position: absolute;
 top: 0;
-padding-top: 5vh;
 width: 30%;
 display: inline-block;
 }
@@ -78,45 +76,38 @@ display:none;
 h1{
 font-family: 'Courier New', Courier, monospace;
 font-size: 36px;
-margin: 0px 0px 36px;
 text-transform: uppercase;
 }
 
 h2{
 font-size: 32px;
-margin: 0px 0px 32px;
 font-family: 'Courier New', Courier, monospace;
 }
 
 h3{
 font-size: 22px;
-margin: 0px 0px 22px;
 font-family: 'Courier New', Courier, monospace;
 }
 
 h4{
 font-size: 19px;
-margin: 0px 0px 19px;
 }
 
 h5{
 font-size: 16px;
-margin: 0px 0px 16px;
 }
 
 h6{
 font-size: 12px;
-margin: 0px 0px 12px;
 }
 
 p{
 font-size: 16px;
-margin: 0px 0px 16px;
+
 }
 
 .pictureText{
 font-size: 12px;
-margin: 0px 0px 12px;
 font-family: 'Courier New', Courier, monospace;
 }
 
@@ -131,8 +122,6 @@ border-radius: 10px;
 color: white;
 text-align: center;
 height: 40px;
-padding-top: 20px;
-margin-top: 20px;
 bottom: 0;
 width: 100%;
 }
@@ -142,12 +131,9 @@ width: 100%;
 /*Wrapper på Startsidan*/
 #wrapper1{
 width: 80%;
-margin-left: auto;
-margin-right: auto;
+margin: auto;
 flex-direction: column;
 min-height: 100vh; 
-margin-top: 20vh;
-background: green;     
 }
 
 /*Bannerbilden*/
@@ -156,8 +142,6 @@ width: 100%;
 object-fit: cover;
 max-height: 20em;
 border-radius: 20px;
-padding-top: 10px;
-padding-bottom: 10px;
 }
 
 /*Företagsnamnet*/
@@ -173,7 +157,7 @@ font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 32px; 
-  padding: 20px 20px 20px 20px;
+  
 }
 
 #pitch p{
@@ -187,21 +171,7 @@ font-size: 40px;
 }
 
   /*Välkomsttexten*/
-  #welcome{
-    margin-top: 10vh;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-   }
-
-   #pcWelcome{
-    margin-top: 10vh;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-   }
+  
  
   #welcome h2{
     color: black;
@@ -220,20 +190,19 @@ font-size: 40px;
     width: 33%;
     display: inline-block;
   }
-
   #widget2{
     border-radius: 10px;
     background: yellow;
     width: 33%;
     display: inline-block;
   }
-
   #widget3{
     border-radius: 10px;
-    background: red;
+    background: blue;
     width: 33%;
     display: inline-block;
-  } 
+  }
+  
 
 
 /*.........................Bloggsidan..........................*/
@@ -244,7 +213,7 @@ width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh; 
-margin-top: 20vh; 
+
 }
 
 /*Bannerbilden längst upp på sidan*/
@@ -261,8 +230,6 @@ width: 100%;
 object-fit: cover;
 max-height: 20em;
 border-radius: 20px;
-padding-top: 10px;
-padding-bottom: 10px;
 }
 
 /*Bild till artikel nr 3*/
@@ -270,8 +237,7 @@ padding-bottom: 10px;
 width: 100%;
 object-fit: cover;
 max-height: 20em;
-padding-top: 10px;
-padding-bottom: 10px;
+
 }
 
 /*Bild till artikel 1*/
@@ -285,7 +251,6 @@ width: 50%;
 /*Det långa citatet i början av sidan*/
 #aquote{
 font-size: 19px;
-margin: 0px 0px 19px;
 font-style: italic;
  }
 
@@ -293,8 +258,6 @@ font-style: italic;
 #extraquote{
 font-family: Mansalva, cursive;
 font-size: 40px;
-margin: 80px 80px 80px 80px;  
-padding: 20px 20px 20px 20px;
 }  
 
 /*Bild till det korta citatet*/
@@ -302,9 +265,7 @@ padding: 20px 20px 20px 20px;
 border-radius: 50%;
 }
 
-#extradiv{
-padding: 2em;
-}
+
 
 /*Bannerbild och bild till artikel nr 3*/
 #expc1{
@@ -312,8 +273,6 @@ width: 100%;
 object-fit: cover;
 max-height: 20em;
 border-radius: 20px;
-padding-top: 10px;
-padding-bottom: 10px;
 }
 
 /*Bild till artikel 3*/
@@ -324,13 +283,10 @@ background-color: rgb(212, 210, 208);
 /*Artiklarna*/
 #article21, #article22, #article31, #article32{
 background-color: rgb(212, 210, 208);
-padding: 2em;
 }
 
 /*Artiklarna*/
-#article4, #article5, #article6{
-padding: 2em;
-} 
+ 
 
 /*........................Kontaktsidan.........................*/
 
@@ -340,45 +296,29 @@ width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh;    
-margin-top: 20vh;  
 }
 
 /*Formuläret*/
 
 /*Fält 1*/
 #firstName{
-margin: 1em;
-margin-left: 5em;
-margin-top: 5em;
-padding: 1em;
 border-radius: 5px;
 width: 70%;
 }
 
 /*Fält 2*/
 #lastName{
-margin: 1em;
-margin-left: 5em;
-padding: 1em;
 border-radius: 5px;
 width: 70%;
 }
 
 /*Fält 3*/
 #message{
-margin: 1em;
-margin-left: 5em;
-padding: 1em;
-border-radius: 5px;
-margin-top: 5em;
 width: 70%;
 }
 
 /*Knapp*/
 .button{
-margin: 1em;
-margin-left: 5em;
-padding: 1em;
 border-radius: 5px;
 background-color: black;
 color: white;
@@ -386,10 +326,6 @@ color: white;
 
 /*Kontakttext*/
 #exText{
-margin: 1em;
-margin-top: 5em;
-margin-left: 5em;
-padding: 1em;
 width: 60%;
 }
 
@@ -401,99 +337,34 @@ width: 60%;
 
 #wrapper1, #wrapper2, #wrapper3{   
   grid-gap: 0px;
+  width: 100%;
 }   
 
 #header, #header2, #header3{
-  position: static;
+position: static;
 
-  }
+}
 
 /*Välkomsttexten på Startsidan*/
-#welcome{
-padding-top: 0px;
-margin-top: 0px;
-}
+
 
 /*Bilden till välkomsttexten på Startsidan*/
 #center{
-margin-left: auto;
-margin-right: auto;
 width: 100%;
 }
 
-/*Artikel 2 på Artikelsidan*/
-#article21{
-padding-bottom: 0px;
-margin-bottom: 0px; 
-}
 
-#article22{
-padding-top: 0px;
-margin-top: 0px; 
-}
 
-/*Citatet på Artikelsidan*/
-#extraquote{
-margin-top: 0px;
-padding-bottom: 0px;
-margin-bottom: 0px;
-}
-
-/*Artikel 3 på Artikelsidan*/
-#article31{
-padding-bottom: 0px;
-margin-bottom: 0px; 
-}
-
-#article32{
-padding-top: 0px;
-margin-top: 0px; 
-}
-
-/*Artikel 4 på Artikelsidan*/
-#article4{
-padding-bottom: 0px;
-margin-bottom: 0px; 
-}
-
-#article5{
-padding-top: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-margin-bottom: 0px; 
-}
-
-#article6{
-padding-top: 0px;
-margin-top: 0px; 
-}
-
-/*Formuläret på Kontaktsidan*/
-#form{
-padding-top: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-margin-bottom: 0px;
-}
-
-/*Texten på kontaktsidan*/
-#exText{
-padding-top: 0px;
-margin-top: 0px;
-padding-bottom: 0px;
-margin-bottom: 0px;
-}
 
 /*Header*/
 #header_logga{
 width: 50%;
-margin-left: 50%;
 
 }
 
 #bigpic{
 width: 100%;
-margin-top: 5vh;
+
 }
 
 #basketklubb{
@@ -527,19 +398,16 @@ margin: auto;
 float: none;
 
 }
-
 #widget1, #widget2, #widget3{
-  display:block;
-  width: 100%;
-}
-
-#wrapper1, #wrapper2, #wrapper3{
-  width: 100%;
+display:block;
+width: 100%;
 }
 
 #mainfooter, #mainfooter2, #mainfooter3{
-  border-radius: 0;
-  }
+border-radius: 0;
+color: rgb(233, 140, 34);
+}
+
 
 
 /*WRAPPER 1*/
@@ -549,10 +417,7 @@ float: none;
 #pitch { grid-area: pitch; }
 #pcWelcome { grid-area: pcWelcome; }
 #welcome { grid-area: welcome; }
-#widget1 { grid-area: widget1; }
-#widget2 { grid-area: widget2; }
-#widget3 { grid-area: widget3; }
-#widgets { grid-area: widgets;}
+#widgets { grid-area: widgets; }
 #mainfooter { grid-area: mainfooter; }
 
 #wrapper1 {
@@ -647,10 +512,7 @@ grid-gap: 10px;
   #pitch { grid-area: pitch; }
   #pcWelcome { grid-area: pcWelcome; }
   #welcome { grid-area: welcome; }
-  #widget1 { grid-area: widget1; }
-  #widget2 { grid-area: widget2; }
-  #widget3 { grid-area: widget3; }
-  #widgets { grid-area: widgets;}
+  #widgets { grid-area: widgets; }
   #mainfooter { grid-area: mainfooter; }
 
   #wrapper1 {
