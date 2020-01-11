@@ -403,6 +403,11 @@ width: 60%;
   grid-gap: 0px;
 }   
 
+#header, #header2, #header3{
+  position: static;
+
+  }
+
 /*Välkomsttexten på Startsidan*/
 #welcome{
 padding-top: 0px;
