@@ -142,10 +142,12 @@ width: 100%;
 /*Wrapper på Startsidan*/
 #wrapper1{
 width: 80%;
-margin: auto;
+margin-left: auto;
+margin-right: auto;
 flex-direction: column;
 min-height: 100vh; 
-margin-top: 20vh;     
+margin-top: 20vh;
+background: green;     
 }
 
 /*Bannerbilden*/
@@ -552,7 +554,7 @@ float: none;
   'widgets'
   'mainfooter';
   grid-gap: 10px;
-  padding: 10px;
+  
 }
 
 /*WRAPPER 2*/
@@ -597,7 +599,7 @@ grid-template-areas:
 'article5'
 'article6'
 'mainfooter2';
-padding: 10px;
+
 }
 
 /*WRAPPER 3*/
@@ -617,7 +619,7 @@ grid-template-areas:
 'form form'
 'mainfooter3 mainfooter3';
 grid-gap: 10px;
-padding: 10px;
+
 }
 
 }
@@ -649,7 +651,7 @@ padding: 10px;
     'widgets widgets widgets'
     'mainfooter mainfooter mainfooter';
     grid-gap: 10px;
-    padding: 10px;
+   
   }
 
 /*WRAPPER 2*/
@@ -687,7 +689,7 @@ grid-template-areas:
 'article4 article4 article4 article5 article5 article5'
 'article4 article4 article4 article6 article6 article6'
 'mainfooter2 mainfooter2 mainfooter2 mainfooter2 mainfooter2 mainfooter2';
-padding: 10px;
+
 }
 
 /*WRAPPER 3*/
@@ -706,7 +708,7 @@ grid-template-areas:
 'form exText'
 'mainfooter3 mainfooter3';
 grid-gap: 10px;
-padding: 10px;
+
 }
 
 }

@@ -547,7 +547,7 @@ left: 0;
     'widgets'
     'mainfooter';
     grid-gap: 10px;
-    padding: 10px;
+    
   }
 
   /*WRAPPER 2*/
@@ -592,7 +592,7 @@ left: 0;
   'article5'
   'article6'
   'mainfooter2';
-  padding: 10px;
+
 }
 
   /*WRAPPER 3*/
@@ -612,7 +612,7 @@ left: 0;
   'form form'
   'mainfooter3 mainfooter3';
   grid-gap: 10px;
-  padding: 10px;
+ 
 }
 
 }
@@ -641,7 +641,7 @@ left: 0;
       'widgets widgets widgets'
       'mainfooter mainfooter mainfooter';
       grid-gap: 10px;
-      padding: 10px;
+     
     }
 
 /*WRAPPER 2*/
@@ -679,7 +679,7 @@ left: 0;
   'article4 article4 article4 article5 article5 article5'
   'article4 article4 article4 article6 article6 article6'
   'mainfooter2 mainfooter2 mainfooter2 mainfooter2 mainfooter2 mainfooter2';
-  padding: 10px;
+  
 }
 
 /*WRAPPER 3*/
@@ -698,7 +698,7 @@ left: 0;
   'form exText'
   'mainfooter3 mainfooter3';
   grid-gap: 10px;
-  padding: 10px;
+  
 }
 
   }
