@@ -194,28 +194,20 @@ font-size:30px;
   }
 
   #widget1{
-    background: grey;
-    width: 25%;
+    width: 33.33%;
     float: left;
+    height: 205px;
    
   }
   #widget2{
-    background: yellow;
-    width: 25%;
+    width: 33.33%;
     float: left;
-  
+    height: 205px;
   }
   #widget3{
-    background: blue;
-    width: 25%;
+    width: 33.33%;
     float: left;
-  }
-
-  #widget4{
-    
-    background: purple;
-    width: 25%;
-    float: left;
+    height: 205px;
   }
   
 
