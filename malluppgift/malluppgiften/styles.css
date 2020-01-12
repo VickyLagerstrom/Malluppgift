@@ -8,6 +8,7 @@ body{
 /*Header*/
 #header, #header2, #header3{
 position: fixed;
+background: white;
 top: 0;
 left: 10%;
 width: 80%;
