@@ -8,17 +8,10 @@ body{
 /*Header*/
 #header, #header2, #header3{
 position: fixed;
-background: white;
+background-color: white;
 top: 0;
 left: 10%;
 width: 80%;
-height: 100px;
-
-}
-
-#bannerPicture{
-  width: 100%;
-  margin: 0;
 }
 
 /*Logga och företagsnamn*/
@@ -31,24 +24,21 @@ height: 100px;
 #header_logga{
   height: 100px;
   background-color: white;
+  padding: 2em;
   display: inline-block;
 }
 
 #bigpic{
-  max-height: 80px;
+  max-height: 100px;
   width: auto;
-  
-}
-
-/*Border radius*/
-.round_corners{
-  border-radius: 10px;
+    
 }
 
 /*Företagsnamnet*/
 #basketklubb{
 position: absolute;
 top: 0;
+padding-top: 5vh;
 width: 30%;
 display: inline-block;
 }
@@ -88,38 +78,45 @@ display:none;
 h1{
 font-family: 'Courier New', Courier, monospace;
 font-size: 36px;
+margin: 0px 0px 36px;
 text-transform: uppercase;
 }
 
 h2{
 font-size: 32px;
+margin: 0px 0px 32px;
 font-family: 'Courier New', Courier, monospace;
 }
 
 h3{
 font-size: 22px;
+margin: 0px 0px 22px;
 font-family: 'Courier New', Courier, monospace;
 }
 
 h4{
 font-size: 19px;
+margin: 0px 0px 19px;
 }
 
 h5{
 font-size: 16px;
+margin: 0px 0px 16px;
 }
 
 h6{
 font-size: 12px;
+margin: 0px 0px 12px;
 }
 
 p{
 font-size: 16px;
-
+margin: 0px 0px 16px;
 }
 
 .pictureText{
 font-size: 12px;
+margin: 0px 0px 12px;
 font-family: 'Courier New', Courier, monospace;
 }
 
@@ -130,23 +127,25 @@ color: rgb(245, 168, 53);
 
 #mainfooter, #mainfooter2, #mainfooter3{
 background:black;
+border-radius: 10px; 
 color: white;
 text-align: center;
 height: 40px;
+padding-top: 20px;
+margin-top: 20px;
 bottom: 0;
 width: 100%;
-margin-top: 20px;
 }
 
 /*.........................Startsidan..........................*/
 
 /*Wrapper på Startsidan*/
 #wrapper1{
-padding-top:140px;
 width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh; 
+margin-top: 20vh;     
 }
 
 /*Bannerbilden*/
@@ -154,22 +153,25 @@ min-height: 100vh;
 width: 100%;
 object-fit: cover;
 max-height: 20em;
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 /*Företagsnamnet*/
 #klubbnamn{
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-font-size:30px;
+font-size: 40px;
 }
 
 /*Citatet på Startsidan*/
 #pitch{
   background-color: rgb(233, 140, 34);
+  border-radius: 10px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   font-size: 32px; 
-  margin: 60px 0 60px 0;
-  
+  padding: 20px 20px 20px 20px;
 }
 
 #pitch p{
@@ -178,10 +180,26 @@ font-size:30px;
 }
 
 /*Bilden till välkomsttexten*/
-
+#pixWelcome{
+  border-radius: 10px;
+}
 
   /*Välkomsttexten*/
-  
+  #welcome{
+    margin-top: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+
+   #pcWelcome{
+    margin-top: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
  
   #welcome h2{
     color: black;
@@ -191,35 +209,39 @@ font-size:30px;
 
   #widgets{
     width: 100%;
+    display: inline-block;
   }
 
   #widget1{
-    width: 33.33%;
-    float: left;
-    height: 205px;
-   
+    border-radius: 10px;
+    background: green;
+    width: 33%;
+    display: inline-block;
   }
   #widget2{
-    width: 33.33%;
-    float: left;
-    height: 205px;
+    border-radius: 10px;
+    background: yellow;
+    width: 33%;
+    display: inline-block;
   }
   #widget3{
-    width: 33.33%;
-    float: left;
-    height: 205px;
+    border-radius: 10px;
+    background: blue;
+    width: 33%;
+    display: inline-block;
   }
   
+
 
 /*.........................Bloggsidan..........................*/
 
 /*Wrappern*/
 #wrapper2{
-  width: 100%;
+width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh; 
-
+margin-top: 20vh; 
 }
 
 /*Bannerbilden längst upp på sidan*/
@@ -235,7 +257,9 @@ width: 40%;
 width: 100%;
 object-fit: cover;
 max-height: 20em;
-
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 /*Bild till artikel nr 3*/
@@ -243,7 +267,8 @@ max-height: 20em;
 width: 100%;
 object-fit: cover;
 max-height: 20em;
-
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 /*Bild till artikel 1*/
@@ -257,6 +282,7 @@ width: 50%;
 /*Det långa citatet i början av sidan*/
 #aquote{
 font-size: 19px;
+margin: 0px 0px 19px;
 font-style: italic;
  }
 
@@ -264,6 +290,8 @@ font-style: italic;
 #extraquote{
 font-family: Mansalva, cursive;
 font-size: 40px;
+margin: 80px 80px 80px 80px;  
+padding: 20px 20px 20px 20px;
 }  
 
 /*Bild till det korta citatet*/
@@ -271,14 +299,18 @@ font-size: 40px;
 border-radius: 50%;
 }
 
-
+#extradiv{
+padding: 2em;
+}
 
 /*Bannerbild och bild till artikel nr 3*/
 #expc1{
 width: 100%;
 object-fit: cover;
 max-height: 20em;
-
+border-radius: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 /*Bild till artikel 3*/
@@ -289,10 +321,13 @@ background-color: rgb(212, 210, 208);
 /*Artiklarna*/
 #article21, #article22, #article31, #article32{
 background-color: rgb(212, 210, 208);
+padding: 2em;
 }
 
 /*Artiklarna*/
- 
+#article4, #article5, #article6{
+padding: 2em;
+} 
 
 /*........................Kontaktsidan.........................*/
 
@@ -302,36 +337,56 @@ width: 80%;
 margin: auto;
 flex-direction: column;
 min-height: 100vh;    
+margin-top: 20vh;  
 }
 
 /*Formuläret*/
 
 /*Fält 1*/
 #firstName{
-
+margin: 1em;
+margin-left: 5em;
+margin-top: 5em;
+padding: 1em;
+border-radius: 5px;
 width: 70%;
 }
 
 /*Fält 2*/
 #lastName{
-
+margin: 1em;
+margin-left: 5em;
+padding: 1em;
+border-radius: 5px;
 width: 70%;
 }
 
 /*Fält 3*/
 #message{
+margin: 1em;
+margin-left: 5em;
+padding: 1em;
+border-radius: 5px;
+margin-top: 5em;
 width: 70%;
 }
 
 /*Knapp*/
 .button{
-
+margin: 1em;
+margin-left: 5em;
+padding: 1em;
+border-radius: 5px;
 background-color: black;
 color: white;
 }
 
 /*Kontakttext*/
 #exText{
+margin: 1em;
+margin-top: 5em;
+margin-left: 5em;
+padding: 1em;
 width: 60%;
 }
 
@@ -342,7 +397,7 @@ width: 60%;
 @media screen and (max-width: 600px) {
 
 #wrapper1, #wrapper2, #wrapper3{   
- 
+  grid-gap: 0px;
   width: 100%;
 }   
 
@@ -351,54 +406,99 @@ position: static;
 
 }
 
-/*Header*/
-#header, #header2, #header3{
-  position: static;
-  top: 0;
-  left: 10%;
-  width: 100%;
-  height: 100px;
-  }
-
-  #basketklubb{
-    padding-top: 50px;
-  }
-
 /*Välkomsttexten på Startsidan*/
-
+#welcome{
+padding-top: 0px;
+margin-top: 0px;
+}
 
 /*Bilden till välkomsttexten på Startsidan*/
 #center{
+margin-left: auto;
+margin-right: auto;
 width: 100%;
 }
 
-#pcWelcome{
-  width: 100%;
-  margin-left: 0;
-  
+/*Artikel 2 på Artikelsidan*/
+#article21{
+padding-bottom: 0px;
+margin-bottom: 0px; 
 }
 
-#pixWelcome{
-  width: 100%;
-  padding-top: 20px;
+#article22{
+padding-top: 0px;
+margin-top: 0px; 
 }
 
+/*Citatet på Artikelsidan*/
+#extraquote{
+margin-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+/*Artikel 3 på Artikelsidan*/
+#article31{
+padding-bottom: 0px;
+margin-bottom: 0px; 
+}
+
+#article32{
+padding-top: 0px;
+margin-top: 0px; 
+}
+
+/*Artikel 4 på Artikelsidan*/
+#article4{
+padding-bottom: 0px;
+margin-bottom: 0px; 
+}
+
+#article5{
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px; 
+}
+
+#article6{
+padding-top: 0px;
+margin-top: 0px; 
+}
+
+/*Formuläret på Kontaktsidan*/
+#form{
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
+
+/*Texten på kontaktsidan*/
+#exText{
+padding-top: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+}
 
 /*Header*/
 #header_logga{
 width: 50%;
+margin-left: 50%;
 
 }
 
 #bigpic{
 width: 100%;
+margin-top: 5vh;
+}
+
+#basketklubb{
+display: none;
 
 }
 
-
-#wrapper1{
-  padding-top: 80px;
-}
 
 
 .topnav{
@@ -425,13 +525,13 @@ margin: auto;
 float: none;
 
 }
-#widget1, #widget2, #widget3, #widget4{
+#widget1, #widget2, #widget3{
 display:block;
 width: 100%;
 }
 
 #mainfooter, #mainfooter2, #mainfooter3{
-
+border-radius: 0;
 color: rgb(233, 140, 34);
 }
 
@@ -457,7 +557,7 @@ color: rgb(233, 140, 34);
   'welcome'
   'widgets'
   'mainfooter';
-
+  grid-gap: 10px;
   
 }
 
@@ -522,7 +622,7 @@ grid-template-areas:
 'exText exText'
 'form form'
 'mainfooter3 mainfooter3';
-
+grid-gap: 10px;
 
 }
 
@@ -551,7 +651,7 @@ grid-template-areas:
     'pcWelcome pcWelcome welcome'
     'widgets widgets widgets'
     'mainfooter mainfooter mainfooter';
-    
+    grid-gap: 10px;
    
   }
 
@@ -608,7 +708,7 @@ grid-template-areas:
 'bannerPicture bannerPicture'
 'form exText'
 'mainfooter3 mainfooter3';
-
+grid-gap: 10px;
 
 }
 
