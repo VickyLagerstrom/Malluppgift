@@ -154,8 +154,11 @@ width: 100%;
 object-fit: cover;
 max-height: 20em;
 border-radius: 20px;
-padding-top: 10px;
-padding-bottom: 10px;
+}
+
+#bannerPicture, #pc1, #pc4{
+  width: 100%;
+  margin-left: 0%;
 }
 
 /*Företagsnamnet*/
@@ -214,19 +217,16 @@ font-size: 40px;
 
   #widget1{
     border-radius: 10px;
-    background: green;
     width: 33%;
     display: inline-block;
   }
   #widget2{
     border-radius: 10px;
-    background: yellow;
     width: 33%;
     display: inline-block;
   }
   #widget3{
     border-radius: 10px;
-    background: blue;
     width: 33%;
     display: inline-block;
   }
@@ -258,7 +258,6 @@ width: 100%;
 object-fit: cover;
 max-height: 20em;
 border-radius: 20px;
-padding-top: 10px;
 padding-bottom: 10px;
 }
 
@@ -325,7 +324,7 @@ padding: 2em;
 }
 
 /*Artiklarna*/
-#article4, #article5, #article6{
+#article1, #article4, #article5, #article6{
 padding: 2em;
 } 
 
@@ -499,8 +498,6 @@ display: none;
 
 }
 
-
-
 .topnav{
 position: fixed;
 top: 0;
@@ -556,9 +553,7 @@ color: rgb(233, 140, 34);
   'pcWelcome'
   'welcome'
   'widgets'
-  'mainfooter';
-  grid-gap: 10px;
-  
+  'mainfooter';  
 }
 
 /*WRAPPER 2*/
@@ -622,7 +617,6 @@ grid-template-areas:
 'exText exText'
 'form form'
 'mainfooter3 mainfooter3';
-grid-gap: 10px;
 
 }
 
